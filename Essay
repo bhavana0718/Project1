@@ -1,0 +1,29 @@
+
+
+Bhavana Sunil & McCaylee Dempcy
+Professor Quinn Lanik
+Computer Science 1
+May 3, 2021
+
+C155N Project 1 
+	My partner and I were both in chemistry this semester so we decided to create a simple calculating GUI that takes in mass and volume inputs and calculates the density with 
+different systems of conversion. Our three user interface controls were volume, mass, and solve and our two callback functions were choice and solve. In the beginning, we mainly
+referenced Lab 10 to understand how to start setting up the ui controls. After using Lab 10, my partner and I mainly looked at Mathworks and at sample codes for different types
+of GUI calculators to figure out how we need to make our callback functions work properly. We had two LAs approve our idea, Laura Hilger and Ryan Martz.
+  For the UI controls, it wasn’t too hard of a task because of Lab 10  but we were still struggling to figure out how we could make three distinct types of controls. Ryan Martz gave
+us the idea to create boxes to type in numbers, a radio button to select which conversion we wanted to do, and finally a push button feature that would actually do the conversion.
+Instead of the radio button, we used a popup menu button instead but it served the same purpose. We used slider step sizes that were similar to Lab 10 to adjust the position of our 
+different buttons. 
+  One of the most difficult aspects of this lab was creating the callback functions. We were easily able to create our inputs but we didn’t know how we could get the solver 
+function to produce an output. We were also trying to figure out why the converter wasn’t functioning properly in our choice function. Eventually, we realized that we needed to
+create a string using the property ‘get’. Because we hadn’t worked with get before in any of our labs, we had issues with it. For the longest time, we were having issues with the
+input, but then we went to Quinn’s video lecture over the sample project and found out that our callback function had to have some sort of input in order for ‘get’ to work like 
+(~,~). In Mathworks, I came across a few different ways that people implemented 'get’ to make their converter, such as using if-else statements and switch cases. We used a switch
+case for our call back function choice to define volume for whenever the user inputs liters or m3. 
+	Another issue we had was just with the finer details of our code.  We forgot to index with curly brackets in a few places and that affected the output values. We were also 
+slightly confused with writing our strings in our callback functions because there’s ‘String’ and there’s also dot string. We made a lot of minor mistakes, and it was very hard 
+to identify where we went wrong in all of the code because we didn’t even receive error messages when we tried running it. 
+GUI’s are very nice because they’re user-friendly and versatile in coding. They’re already used in many of our technological devices such as desktops, gaming devices, portable
+media players. My partner and I believe that the rise of virtual reality will make GUIs be more utilized to offer people spatial interfaces. We also think GUIs will be very popular
+with the development of robotic probing and with brain-machine interfaces. Elon Musk has started these types of projects at his company Neurolink, and I’m sure GUIs will be useful
+with the establishment of these brain-machine interfaces.
